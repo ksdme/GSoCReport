@@ -54,6 +54,222 @@ activity:
    - details: >
       nav.jsx: Fix broken link on header
 
+ - 4:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/77830f4146de9d4d29b539740423a0ca43ee219f
+   - details: >
+      Pre-fetch pull request review comments & reactions
+
+ - 5:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/2a7338b3edff6d1c9f5b019ea07c28640996267a
+   - details: >
+      package.json: Add linting on script & test
+
+ - 6:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/d3c6debe198b369901166be791a9ae53f23b26a0
+   - details: >
+      Get test suite working
+
+ - 7:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/671f13de1999001e718df9ce5187d7abf278791d
+   - details: >
+      Set pre-fetch time limit for pull requests
+
+ - 8:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/91fffbbce1713a1d56276122d51cb16c7079b626
+   - details: >
+      Fix Travis failure
+
+ - 9:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/c33cc70bcab57a4ac13e4f352a255abc213dc874
+   - details: >
+      database.js: Fix `closed` filter bug
+
+ - 10:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/a2957290794424c6b8a0162ab49694cd771c2445
+   - details: >
+      .travis.yml: Enable keep-history
+
+ - 11:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/aca0d61832ffe1bac2b2c9d2615ea4219f68d3b6
+   - details: >
+      .travis.yml: Let moban task not deploy
+
+ - 12:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/4b82e679b83339f500d686967d3b6b843f7e1d40
+   - details: >
+      run-test.sh: Verify files exist
+
+ - 13:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/0f9f4a45bfdf341c5705d7543688adea7195c5cb
+   - details: >
+      Increase test timeout threshold
+
+ - 14:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/34c2e6de21ed2933d8f19cca3b6dd177ce32c86f
+   - details: >
+      login-modal.jsx: Add exception for default api url
+
+ - 15:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/828be376832687373b984df38ca71c1684651aa7
+   - details: >
+      Add `meta-review in need` column
+
+ - 16:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/ac8b0709b0e82963fd3d6680b37005359225effc
+   - details: >
+      Display reactions of reviews
+
+ - 17:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/892b87ff808ac188166c9500d1169b1590b8d791
+   - details: >
+      dashboard.jsx: Add environment REPOSITORIES
+
+ - 18:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/e791bee60bf4af32aec889211d4de63d6418d7ed
+   - details: >
+      Setup GraphQL client
+
+ - 19:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/5480420793979b9ae4b53117c6d5d757f12013bb
+   - details: >
+      Use new graphql client to sync issues
+
+ - 20:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/93c842bca04298c8afc2d71d167efe04d432d11f
+   - details: >
+      dashboard.jsx: Load repos automatically after login
+
+ - 21:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/9eae16877612d21f3ceed99ec23a097ec32e21b3
+   - details: >
+      Add review filters functionality
+
+ - 22:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/d32b25729ee1d9bc7972dce4a898a0bea9146098
+   - details: >
+      Refactor pre-fetching
+
+ - 23:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/faf793a3679ab32cb4e42c8ac54f174695b6bebc
+   - details: >
+      github-graphql.js: Fix several issues
+
+ - 24:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/59e9cba6ca38a8fb6396a0864ff43bf749f1d6ec
+   - details: >
+      Setup Jest configurations
+
+ - 25:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/8a3c49befc2c3d2b68ed11c5f2e217cb177caf57
+   - details: >
+      reactions.jsx: Add snapshot test
+
+ - 26:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/1f88cfa9c369f5b3f4bd7abafa6c15970196de80
+   - details: >
+      Add codecov
+
+ - 27:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/3638063072aeea1925bab5f9565d7765bf8d4cf4
+   - details: >
+      Separate test logic
+
+ - 28:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/10003d073c16c18da669b66f235c0e9abc1230f1
+   - details: >
+      netlify.toml: Verify pre-fetched files exist
+
+ - 29:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/commit/d1a7ea3ea66c7af7a51a9717f67fc635fc35cf41
+   - details: >
+      Enhance meta-review UI
+
+ - 30:
+   - repo: gh-board
+   - link: https://github.com/coala/gh-board/pull/147
+   - details: >
+      Add reaction mutation functionality (pending review)
+
+ - 31:
+   - repo: cEPs
+   - link: https://github.com/coala/cEPs/commit/e9f7587856e1c236d37e96f54a0cb4d72069776d
+   - details: >
+      cEP-0019.md: Meta-review system
+
+ - 32:
+   - repo: coala
+   - link: https://github.com/coala/coala/commit/dc2cc6a82f72644da55f509f8d4a50ba8fa694ba
+   - details: >
+      Linter: Add option to remove 0 number
+
+ - 33:
+   - repo: coala
+   - link: https://github.com/coala/coala/commit/dfa92b64435b86b10b9a725ee32267896450e565
+   - details: >
+      Meta-review.rst: Add meta-review docs
+
+ - 34:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/2f6f58b4afa0b139aa25062c3d3fcb27df3ea0d5
+   - details: >
+      PyLintBear: Fix column number convention
+
+ - 35:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/1f3325519a72cb98669185149b03b11c1ec25f70
+   - details: >
+      CPPLintBear: Fix line number convention
+
+ - 36:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/705f9db98d957cc9d27e675b1d58f369feb54255
+   - details: >
+      HAMLLintBear: Fix line number convention
+
+ - 37:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/e5df6bcac33aa06bec70bf21217972620c34e888
+   - details: >
+      WriteGoodLintBear: Fix column number convention
+
+ - 38:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/e445c04e28e95b7f21983e9e2dd770e81838aa69
+   - details: >
+      StylintBear: Fix column number convention
+
+ - 39:
+   - repo: coala-bears
+   - link: https://github.com/coala/coala-bears/commit/401fa883ffbe21b78a8a4899160592a293f3d4cd
+   - details: >
+      CheckStyleBear: Fix offset convention
+
 ---
 
 ### Meta-review
