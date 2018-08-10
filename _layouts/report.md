@@ -81,7 +81,7 @@
                         <div class="card-content">
                             <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
                             <br>
-                            <div class="center"><a href="{{ page.tar }}">Download</a></div>
+                            <div class="center"><a href="{{ page.tarball }}">Download</a></div>
                         </div>
                     </div>
                 </div>
