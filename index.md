@@ -271,36 +271,42 @@ activity:
       Meta-review.rst: Add meta-review docs
 
  - 40:
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/5704
+   - details: >
+      Newcomers_Guide.rst: Add meta-review process (pending review)
+
+ - 41:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/2f6f58b4afa0b139aa25062c3d3fcb27df3ea0d5
    - details: >
       PyLintBear: Fix column number convention
 
- - 41:
+ - 42:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/1f3325519a72cb98669185149b03b11c1ec25f70
    - details: >
       CPPLintBear: Fix line number convention
 
- - 42:
+ - 43:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/705f9db98d957cc9d27e675b1d58f369feb54255
    - details: >
       HAMLLintBear: Fix line number convention
 
- - 43:
+ - 44:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/e5df6bcac33aa06bec70bf21217972620c34e888
    - details: >
       WriteGoodLintBear: Fix column number convention
 
- - 44:
+ - 45:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/e445c04e28e95b7f21983e9e2dd770e81838aa69
    - details: >
       StylintBear: Fix column number convention
 
- - 45:
+ - 46:
    - repo: coala-bears
    - link: https://github.com/coala/coala-bears/commit/401fa883ffbe21b78a8a4899160592a293f3d4cd
    - details: >
