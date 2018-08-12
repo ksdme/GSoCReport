@@ -1,348 +1,399 @@
 ---
 layout: report
-student: Boxuan Li 
+permalink: /GSoC/2018/StatusReport/ksdme
+student: Kilari Teja
 organisation: coala
-organisation_link : https://coala.io
-project: Meta-review
-project_link: https://summerofcode.withgoogle.com/projects/#5188493739819008
-tarball: https://github.com/li-boxuan/GSoCReport/raw/master/li-boxuan_coala.tar.gz
+organisation_link: https://coala.io
+report_year: 2018
+project: coala language server
+project_link: https://summerofcode.withgoogle.com/projects/#4971369184362496
+tarball: https://github.com/ksdme/GSoCReport/raw/master/ksmde_coala.tar.gz
+sha256sum: 71985d45fbf7648029ac14541b7012d5ff51bcc0e9b2ebf7032a3f69f3ce5b1a
 mentors: >
- [Hemang Kumar](https://github.com/hemangsk/) & [Surya Widi](https://github.com/blazeu) & [Andrew Dassonville](https://github.com/andrewda)
+  [Ce Gao](https://github.com/gaocegege)
+  [Nicholas Gates](https://github.com/gatesn) &
+  [Nalin Bhardwaj](https://github.com/nalinbhardwaj)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/14
- - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/15
- - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/16
- - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/17
+  - Bonding: https://gitlab.com/coala/GSoC/GSoC-2018/milestones/47
+  - Phase 1: https://gitlab.com/coala/GSoC/GSoC-2018/milestones/48
+  - Phase 2: https://gitlab.com/coala/GSoC/GSoC-2018/milestones/49
+  - Phase 3: https://gitlab.com/coala/GSoC/GSoC-2018/milestones/50
 bio: >
- I'm a final year student (expected graduation date: May 2019) of Computer Science at The University of Hong Kong. I participated in GSoC and worked with [coala](http://coala.io) to implement a meta-review system, which collects and tracks GitHub reactions used by coala community to generate meaningful analysis. I also improved usability of [gh-board](http://github.com/coala/gh-board), a serverless kanban board, fixing some issues and extending it to track reviews & meta-reviews.
+  I am Kilari Teja, a final year student of Computer Science Engineering at
+  Guru Gobind Singh Indraprastha University, located in Delhi, India. I have
+  been a GSoC'18 student for [coala](http://coala.io) working on bringing
+  coala to code editors via language server protocol. My projects makes it
+  possible for linting and fixing code to be performed right from the code
+  editor using coala.
 social:
- - GitHub:
-   - username: li-boxuan
-   - link: https://github.com/li-boxuan
- - GitLab:
-   - username: li-boxuan
-   - link: https://gitlab.com/li-boxuan
- - Gitter:
-   - username: li-boxuan
-   - link: https://gitter.im/li-boxuan
- - LinkedIn:
-   - username: Li Boxuan 
-   - link: https://www.linkedin.com/in/li-boxuan-427510104
-email: liboxuanhk@gmail.com
-blog: http://li-boxuan.github.io/
+  - GitHub:
+      - username: ksdme
+      - link: https://github.com/ksdme
+  - GitLab:
+      - username: ksdme
+      - link: https://gitlab.com/ksdme
+  - Gitter:
+      - username: ksdme
+      - link: https://gitter.im/ksdme
+  - OpenHub:
+      - username: ksdme
+      - link: https://www.openhub.net/accounts/ksdme
+email: ksdme9@gmail.com
+blog: http://medium.com/ksdme-coala-and-gsoc
 activity:
- - 0:
-   - repo: community
-   - link: https://github.com/coala/community/commit/2929576df9c20144aad9db8a5e326c1853375158
-   - details: > 
-      Set up meta_review app
- - 1:
-   - repo: community
-   - link: https://github.com/coala/community/commit/aae015127c96b85a1cd9188199a6e4a46693d9f7
-   - details: >
-      Change meta-review models
 
- - 2:
-   - repo: community
-   - link: https://github.com/coala/community/commit/78e1e3a542a1654982f55cde4e08bbf97ec81c3c
-   - details: >
-      Implement meta-review scoring & ranking system
+  - 1:
+      - repo: projects
+      - link: https://github.com/coala/projects/commit/10d706aa14325147caacd053e20c4fb77af56376
+      - details: >
+         [Bonding Period Work] coala_language_server.md: Update project details
 
- - 3:
-   - repo: projects
-   - link: https://github.com/coala/projects/commit/6c83d70a8559d1368fba1d80ad412b31ada7dad3
-   - details: >
-      [Bonding Period Work] meta_review.md: Add meta review project
+  - 2:
+      - repo: cEPs
+      - link: https://github.com/coala/cEPs/pull/171
+      - details: >
+         cEP-0028: Optimizing coala for language server
 
- - 4:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/16f8e84036a9ba47d434c60400da021d90a1a740
-   - details: >
-      [Bonding Period Work] fetch-issues.js: Build custom generator
+  - 3:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/32/commits/bd12657c67b257ed4b0f498c14cab389f96cc91a
+      - details: >
+         [Bonding Period Work] langserver.py: Update to use jsonrpc
 
- - 5:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/46f1ad5ce83d5d72aa95ea00703b92c2fc38b2dc
-   - details: >
-      [Bonding Period Work] Remove TODOs in components code
+  - 4:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/305a441742f109166bcae241e10b101ad5d908c9
+      - details: >
+         coala_langserver: Drop codebase and tests
 
- - 6:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/60b8a10f123d2bec71c22c31f3e281ad9609fa07
-   - details: >
-      [Bonding Period Work] Modernize existing React component code
+  - 5:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/b1f5ae490fbafe06a14dcb34fa5578e2fbb118a7
+      - details: >
+         .vscode-client: Drop vscode client
 
- - 7:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/e452f41ddda6abe149442d5240675b3ae3333e6a
-   - details: >
-      nav.jsx: Fix broken link on header
+  - 6:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/6bbad87389004b872affdd6e13e7b079e81b2108
+      - details: >
+         tests: Add test helpers and resources
 
- - 8:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/77830f4146de9d4d29b539740423a0ca43ee219f
-   - details: >
-      Pre-fetch pull request review comments & reactions
+  - 7:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/5d4c230cd1a819572d423a5ba90a537d0ca1b91c
+      - details: >
+         coalals.utils.log: Add log configuration
 
- - 9:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/2a7338b3edff6d1c9f5b019ea07c28640996267a
-   - details: >
-      package.json: Add linting on script & test
+  - 8:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/3e7defd3b78e2b5a93fedc856cf871bd0f691d52
+      - details: >
+         coalals.interface: Add initial coala wrapper
 
- - 10:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d3c6debe198b369901166be791a9ae53f23b26a0
-   - details: >
-      Get test suite working
+  - 9:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/f10159391befe2f184c453183932e5e3747a2c34
+      - details: >
+         coalals.results: Add result processing module
 
- - 11:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/671f13de1999001e718df9ce5187d7abf278791d
-   - details: >
-      Set pre-fetch time limit for pull requests
+  - 10:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/9e8473120d2ea998e6b4b1e2e6812e2ff6a56505
+      - details: >
+         coalals.langserver: Add language server module
 
- - 12:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/91fffbbce1713a1d56276122d51cb16c7079b626
-   - details: >
-      Fix Travis failure
+  - 11:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/1a5f1c0b71afc1ff0f8455ddc43d89bff20f8436
+      - details: >
+         coalals.main: Add main.py
 
- - 13:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/c33cc70bcab57a4ac13e4f352a255abc213dc874
-   - details: >
-      database.js: Fix `closed` filter bug
+  - 12:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/5c5f87f50fe4d61a1fd921a7d03801b669c0ea03
+      - details: >
+         test-requirements.txt: Update test requirements
 
- - 14:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/a2957290794424c6b8a0162ab49694cd771c2445
-   - details: >
-      .travis.yml: Enable keep-history
+  - 13:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/8c64f2af8176f1590be6b7d227d0d62bf28912fd
+      - details: >
+         requirements.txt: Update requirements
 
- - 15:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/aca0d61832ffe1bac2b2c9d2615ea4219f68d3b6
-   - details: >
-      .travis.yml: Let moban task not deploy
+  - 14:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/d56adf2e2c7ef5d2a17ecd47748b35d27291f51c
+      - details: >
+         Update test configuration
 
- - 16:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/4b82e679b83339f500d686967d3b6b843f7e1d40
-   - details: >
-      run-test.sh: Verify files exist
+  - 15:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/2/commits/c60a565ef8392bbda571049e29109bdfd231de26
+      - details: >
+         coala-ls.sh: Add coala-ls.sh
 
- - 17:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/0f9f4a45bfdf341c5705d7543688adea7195c5cb
-   - details: >
-      Increase test timeout threshold
+  - 16:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/8/commits/cee8c2c7c047999d639b03802e0e3c0f029e169e
+      - details: >
+         README: Update README.md and assets
 
- - 18:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/34c2e6de21ed2933d8f19cca3b6dd177ce32c86f
-   - details: >
-      login-modal.jsx: Add exception for default api url
+  - 17:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/9/commits/ef8dc592c80d629d90c0596bb1a2be3df75c7b40
+      - details: >
+         .coafile: Update config and globs
 
- - 19:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/828be376832687373b984df38ca71c1684651aa7
-   - details: >
-      Add `meta-review in need` column
+  - 18:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/11/commits/8d7f8d05e506b252179c92335f98cb365102a405
+      - details: >
+         perf-metrics.md: Add performance metrics
 
- - 20:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/ac8b0709b0e82963fd3d6680b37005359225effc
-   - details: >
-      Display reactions of reviews
+  - 19:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/32fe61caa96d8a039cb532bb46eb1ed8e10cbfb4
+      - details: >
+          coalals.results: Refactor to submodule
 
- - 21:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/892b87ff808ac188166c9500d1169b1590b8d791
-   - details: >
-      dashboard.jsx: Add environment REPOSITORIES
+  - 20:
+    - repo: coala-ls
+    - link: https://github.com/coala/coala-ls/pull/13/commits/e9745d34b9705787bad41df12a1801eee4cfab7e
+    - details: >
+        requirements.txt: coalals.utils.files: Add get_disk_contents()
 
- - 22:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/e791bee60bf4af32aec889211d4de63d6418d7ed
-   - details: >
-      Setup GraphQL client
+  - 21:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/88d79837106185382d3feadc8c9330f219ea271e
+      - details: >
+         requirements.txt: Add whatthepatch
 
- - 23:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/5480420793979b9ae4b53117c6d5d757f12013bb
-   - details: >
-      Use new graphql client to sync issues
+  - 22:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/e9745d34b9705787bad41df12a1801eee4cfab7e
+      - details: >
+         coalals.results.fixes: Add fixes parsing & lsp models
 
- - 24:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/93c842bca04298c8afc2d71d167efe04d432d11f
-   - details: >
-      dashboard.jsx: Load repos automatically after login
+  - 23:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/7b4d59d0422be7017dc5fa14a4a7879bc5361c63
+      - details: >
+         coalals.results.diagnostics: Support fixes collection
 
- - 25:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/9eae16877612d21f3ceed99ec23a097ec32e21b3
-   - details: >
-      Add review filters functionality
+  - 24:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/8e75ead740fac57b461bb12497db4147f78d4d19
+      - details: >
+         coalals.langserver: Add support for textDocument/formatting
 
- - 26:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d32b25729ee1d9bc7972dce4a898a0bea9146098
-   - details: >
-      Refactor pre-fetching
+  - 25:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/14/commits/99c0663b0177bba30a4b8025615530d15e4d441b
+      - details: >
+         coalals.langserver: Add support for showMessageRequest
 
- - 27:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/faf793a3679ab32cb4e42c8ac54f174695b6bebc
-   - details: >
-      github-graphql.js: Fix several issues
+  - 26:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/7b4d59d0422be7017dc5fa14a4a7879bc5361c63
+      - details: >
+         coalals.results.diagnostics: Support fixes collection
 
- - 28:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/59e9cba6ca38a8fb6396a0864ff43bf749f1d6ec
-   - details: >
-      Setup Jest configurations
+  - 27:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/13/commits/7b4d59d0422be7017dc5fa14a4a7879bc5361c63
+      - details: >
+         coalals.results.diagnostics: Support fixes collection
 
- - 29:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/8a3c49befc2c3d2b68ed11c5f2e217cb177caf57
-   - details: >
-      reactions.jsx: Add snapshot test
+  - 28:
+      - repo: coala-ls
+      - link: https://github.com/coala/coala-ls/pull/15/commits/6e095ca6c18813878766e9767d99a4bec10ec4a8
+      - details: >
+         perf-metrics.md: Update perf-metrics for Phase-2
 
- - 30:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/1f88cfa9c369f5b3f4bd7abafa6c15970196de80
-   - details: >
-      Add codecov
+  - 29:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/52319c23e653850df148b284882fce799724c32c
+      - details: >
+         vscode-client/*: Restructure Repository
 
- - 31:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/3638063072aeea1925bab5f9565d7765bf8d4cf4
-   - details: >
-      Separate test logic
+  - 30:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/acb09032d5704f9a5cbb01d2bc0dfd0dd87e611f
+      - details: >
+         Add lint & fix typescript linting issues
 
- - 32:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/10003d073c16c18da669b66f235c0e9abc1230f1
-   - details: >
-      netlify.toml: Verify pre-fetched files exist
+  - 31:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/77694898deaa946cf8c81613d85097fba1ad4d8f
+      - details: >
+         .coafile: Update .coafile to TS based project
 
- - 33:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d1a7ea3ea66c7af7a51a9717f67fc635fc35cf41
-   - details: >
-      Enhance meta-review UI
+  - 32:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/bfa3aea7b31942693c227242af4cfa3b15e44bdb
+      - details: >
+         Update server invoke script
 
- - 34:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/b062087825f01c1169accb646f0eaf0d1f0e7cb8
-   - details: >
-      Add reaction mutation functionality
+  - 33:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/f454a352743d6e676d301393f641d649d789ba65
+      - details: >
+         extension.ts: Add internal coala-ls config
 
- - 35:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d4705c5332ecd8e4329f0b62f7df3c9312c35a01
-   - details: >
-      repo-kanban.jsx: Use withAuth wrapper
+  - 34:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/b04b75df2c73835ab9c4b542550560f01d14511b
+      - details: >
+         extension.ts: Add debug flag to invocation mode
 
- - 36:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d1a9bf25061800510cd9cf7d1c089900d2cbd1f1
-   - details: >
-      dashboard.jsx: Use withAuth wrapper
+  - 34:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/a4a337482f2f9dc41a7b659c9c06e1235b66199f
+      - details: >
+         extension.ts: Support extension configuration
 
- - 37:
-   - repo: cEPs
-   - link: https://github.com/coala/cEPs/commit/e9f7587856e1c236d37e96f54a0cb4d72069776d
-   - details: >
-      cEP-0019.md: Meta-review system
+  - 35:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/cee0fdb0bfbaf161868319d4c01023a747e695ef
+      - details: >
+         extension.ts: Drop unnecessary file watching
 
- - 38:
-   - repo: coala
-   - link: https://github.com/coala/coala/commit/dc2cc6a82f72644da55f509f8d4a50ba8fa694ba
-   - details: >
-      Linter: Add option to remove 0 number
+  - 36:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/5f257aae296131862e9b989bc2e78d9135a87944
+      - details: >
+         package.json: Update client version
 
- - 39:
-   - repo: coala
-   - link: https://github.com/coala/coala/commit/dfa92b64435b86b10b9a725ee32267896450e565
-   - details: >
-      Meta-review.rst: Add meta-review docs
+  - 37:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/4289f796494198877b30f5945333ba2629b1af46
+      - details: >
+         .travis.yml: Update travis configuration
 
- - 40:
-   - repo: coala
-   - link: https://github.com/coala/coala/pull/5704
-   - details: >
-      Newcomers_Guide.rst: Add meta-review process (pending review)
+  - 38:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/73/commits/977237b236d2c28624027184372b275d405b686f
+      - details: >
+         extension.test.ts: Add extension test
 
- - 41:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/2f6f58b4afa0b139aa25062c3d3fcb27df3ea0d5
-   - details: >
-      PyLintBear: Fix column number convention
+  - 39:
+      - repo: coala-vs-code
+      - link: https://github.com/coala/coala-vs-code/pull/76/commits/f14e9b94e6a88e0ad7696f7e2a02775ff0b02640
+      - details: >
+         extension.ts: Update list of supported langs
 
- - 42:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/1f3325519a72cb98669185149b03b11c1ec25f70
-   - details: >
-      CPPLintBear: Fix line number convention
+  - 40:
+      - repo: coala
+      - link: https://github.com/coala/coala/commit/3818164c5e1abb0b4eb20a3b1707d051c7324b7c
+      - details: >
+         filters: Add support for Section Filtering
 
- - 43:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/705f9db98d957cc9d27e675b1d58f369feb54255
-   - details: >
-      HAMLLintBear: Fix line number convention
+  - 41:
+      - repo: coala
+      - link: https://github.com/coala/coala/commit/ce6513e3edf2941efb12835866a6be170a7554aa
+      - details: >
+         filters: Update filters to new API
 
- - 44:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/e5df6bcac33aa06bec70bf21217972620c34e888
-   - details: >
-      WriteGoodLintBear: Fix column number convention
+  - 42:
+      - repo: coala
+      - link: https://github.com/coala/coala/commit/ba2c2f7cd3d5e19609fbf509a7bbb2ef85658632
+      - details: >
+         SectionTagsFilter: Add SectionTagsFilter
 
- - 45:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/e445c04e28e95b7f21983e9e2dd770e81838aa69
-   - details: >
-      StylintBear: Fix column number convention
+  - 43:
+      - repo: coala
+      - link: https://github.com/coala/coala/commit/97a1f6c2671d58c3ee7f49ec20e15d583d9ddc4f
+      - details: >
+         FileProxies: Add FileProxy and related classes
 
- - 46:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/401fa883ffbe21b78a8a4899160592a293f3d4cd
-   - details: >
-      CheckStyleBear: Fix offset convention
+  - 44:
+      - repo: coala
+      - link: https://github.com/coala/coala/commit/013b3f80e092c47802fe4e8ad0f8e29ee2fe2f1e
+      - details: >
+         FileProxies: Support FileProxies
 
+  - 45:
+      - repo: coala-ls
+      - link: https://github.com/ksdme/coala-ls/commit/0b86719d7a31b890531c86564c3bc8763ad5559e
+      - details: >
+         requirements.txt: Update to bleeding edge coala
+
+  - 46:
+      - repo: coala-ls
+      - link: https://github.com/ksdme/coala-ls/commit/1aa0463aa335e5d534e5cb9bcc89e8a79579b21f
+      - details: >
+         SectionFilters: Support section filters
+
+  - 47:
+      - repo: coala-ls
+      - link: https://github.com/ksdme/coala-ls/commit/8b4e5e9406ae25822fe085c7dc9df8730fae91d2
+      - details: >
+         FileProxies: Support analysis of in-memory files
+
+  - 48:
+      - repo: coala-ls
+      - link: https://github.com/ksdme/coala-ls/commit/8eb72e3fceebfb653bb29347f02fbe963e53524b
+      - details: >
+         Support status editor messages
 ---
 
-### Meta-review
+### coala language server
 
 
 #### Work Done
+The power of coala can now be directly leveraged from within the code editor.
+coalals was written to support language server protocol, an editor independent
+protocol for source code processors such as linters and fixers. My project
+involved building a language server based exposing coala, an editor (VS Code)
+plugin and optimizing coala core to better support coalals. The following is
+a break down of all the work done:
 
-coala [community](https://github.com/coala/community) website now has a meta-review
-[ranking list](http://coala-community.netlify.com/meta-review/). coala
-gh-board [website](https://coala-gh-board.netlify.com/)
-now has a column displaying review comments that need to be meta-reviewed. I also
-fixed many issues around [gh-board](https://github.com/coala/gh-board) repo.
-Apart from all above, I do some other contributions to the community, including
-doing reviews, and fixing several issues around coala & coala-bears repo.
+- coala-ls
+  - Supports open, save, change, format, showMessage request types.
+  - Supports limited code fixing.
+  - Supports concurrent analysis cycles and management.
+  - Supports all file types supported by coala core.
+  - Supports sending UI message when coala core behaves unexpectedly.
+  - Supports section filtering based on tags.
+
+- coala-vs-code
+  - Supports using coala from VS Code.
+  - Supports all file types supported by coala.
+  - Supports limited set of extension customization using VS Code settings.
+  - Published on Store.
+
+- coala
+  - Supports section filtering.
+  - Supports section filtering by tags.
+  - Supports analysis of coala on in-memory files (FileProxies).
 
 #### Challenges
 
-Most things went smoothly. The biggest challenge for me was that I did not have serious
-frontend experience. Before I applied for this project, I had no frontend development
-knowledge at all, while two thirds of my project was about javascript and React.
-Luckily, org admin and all my mentors were very willing to help and review my work.
-coala community always do extremely careful reviews and expect high quality of code.
-It was hard work for me, but I did learn a lot at the same time.
+Working on my project was not always a smooth ride. I had to work on three
+different pieces of technology, one for each phase and care about how they
+would work together. I already had some experience working with language
+servers but TypeScript and VS Code Plugin Development was quite new to me.
+But, thanks to the referable work done previously on my project, this got a
+lot easier. I also had some problems dealing with code structuring and reviews
+but by I eventually learned proper git etiquettes.
 
 #### Work to be done
 
-The ranking list on community website is very basic. It could be prettified and improved.
-As it is a ranking list, filtering, sorting & searching options could be added.
-The algorithm between that meta-review ranking system is basic: it uses naive iterative
-algorithm to calculate scores, which can be enhanced in the future.
+Although most of the said goals have been achieved, much is left to be done in
+order to make coalals even more efficient and improve the user experience. I
+think that given enough dev time coalals can be improved to be a very efficient
+way to use coala. The following is a break down of what I think is possible and
+should be done:
 
-There are still many issues around with gh-board. A major improvement which can be done
-is GitLab support - it currently only supports GitHub.
+- coala
+  - Support Apply Actions on FileProxies, this would make it possible to extend
+    complete code fixing support for coalals.
 
+- coala-ls
+  - Pip release to make installing coalals easier.
+  - Support for custom section tags via editor configuration instead of default
+    tags.
+
+- coala-vs-code
+  - CD System to make delivery of plugin builds streamlined.
+  - More extension customization options like custom tags.
