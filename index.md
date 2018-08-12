@@ -5,7 +5,7 @@ organisation: coala
 organisation_link : https://coala.io
 project: Meta-review
 project_link: https://summerofcode.withgoogle.com/projects/#5188493739819008
-tarball: https://github.com/li-boxuan/GSoCReport/raw/master/li-boxuan_coala.tar
+tarball: https://github.com/li-boxuan/GSoCReport/raw/master/li-boxuan_coala.tar.gz
 mentors: >
  [Hemang Kumar](https://github.com/hemangsk/) & [Surya Widi](https://github.com/blazeu) & [Andrew Dassonville](https://github.com/andrewda)
 phase:
